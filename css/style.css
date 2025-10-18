@@ -84,3 +84,28 @@ footer {
     justify-content: flex-end;
   }
 }
+
+/* Hero section styles */
+.hero {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.hero .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
